@@ -21,7 +21,7 @@
     <div class="border-bottom">
       <div class="container py-4">
         <h2>Latest</h2>
-        <ul class="posts">
+        <ul class="posts list-unstyled">
           {% for post in site.posts %}
             <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
           {% endfor %}
