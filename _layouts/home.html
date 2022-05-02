@@ -29,6 +29,17 @@
       </div>
     </div>
     
+    <div class="border-bottom">
+      <div class="container py-4">
+        <h2>Projects</h2>
+        <ul class="posts list-unstyled">
+          {% for entry in site.work %}
+            <li><span>{{ entry.date | date_to_string }}</span> » <a href="{{ entry.url }}" title="{{ entry.title }}">{{ entry.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    
     {% include work.html %}
     
     {% include site-footer.html %}
