@@ -1,7 +1,7 @@
 ---
 layout: work
 title: "2014 - 2017: Belize Tourism Board"
-date: 20178-01-31
+date: 2017-01-31
 meta:
   title: Belize Tourism Board | Jeffrey Isham
 tags: [Olson, project, work]
