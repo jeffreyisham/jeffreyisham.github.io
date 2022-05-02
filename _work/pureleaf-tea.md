@@ -8,4 +8,4 @@ tags: [Olson, project, work]
 ---
 
 <p>Led UX, Design, and Technical execution of 3 iterations of Pureleaf's tumblr theme. Responsible for Google Maps based social image aggregator.</p>
-<p>Technologies: HTML, CSS (Bootstrap), Javascript (GSAP, jQuery), tumblr (templating and API), API integrations (Instagram, Twitter, Google Maps), AWS S3</p>
+<p class="small">Technologies: HTML, CSS (Bootstrap), Javascript (GSAP, jQuery), tumblr (templating and API), API integrations (Instagram, Twitter, Google Maps), AWS S3</p>
