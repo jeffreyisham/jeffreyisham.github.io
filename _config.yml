@@ -3,3 +3,4 @@ markdown: kramdown
 collections:
   work:
     output: true
+    sort_by: date
