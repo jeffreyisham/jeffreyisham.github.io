@@ -2,6 +2,7 @@
 layout: post
 title: "Ch-ch-ch-ch Changes"
 date: 2021-12-15
+metatitle: Ch-ch-ch-ch Changes | Jeffrey Isham
 ---
 
 <p>Long time, no post. All 10 of you, along with the spammers that hang on my every word will be pleased to know that I've taken a new job!</p>
