@@ -22,10 +22,10 @@
       <div class="container py-4">
         
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <h2>Latest</h2>
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-7">
             <ul class="posts list-unstyled">
               {% for post in site.posts %}
                 <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
@@ -41,10 +41,10 @@
       <div class="container py-4">
         
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <h2>Projects</h2>
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-7">
             <p>I got my first job as a web designer in 2005. Since then I've been a web developer, frontend developer, senior developer, tech lead, dev manager, practice lead, and these days, an engineering lead and vice president! I've been fortunate to have worked on some really great brands with some really fantastic people over the course of my career. Here's a few of my favorite projects.</p>
             <ul class="posts list-unstyled">
               {% assign work_items = site.work | sort: 'date' | reverse %}
