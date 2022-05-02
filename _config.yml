@@ -1,5 +1,4 @@
 name: Jeffrey Isham
 markdown: kramdown
 collections:
-  work:
-    output: true
+  - work
