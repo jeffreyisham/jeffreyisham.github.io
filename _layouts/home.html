@@ -35,7 +35,7 @@
               {% for post in site.posts %}
                 <li class="post">
                   <div class="small text-uppercase fw-bold text-muted">{{ post.date | date: "%B" }} {{ post.date | date: "%d" | plus:'0' }}, {{ post.date | date: "%Y" }}</div>
-                  <h3 class="h4 fw-normal"><!--a href="{{ post.url }}" title="{{ post.title }}"-->{{ post.title }}<!--/a--></h3>
+                  <h3 class="h5 fw-normal"><!--a href="{{ post.url }}" title="{{ post.title }}"-->{{ post.title }}<!--/a--></h3>
                   <div>
                      {{ post.content }}
                   </div>
