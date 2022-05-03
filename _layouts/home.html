@@ -28,7 +28,7 @@
           <div class="col-lg-7">
             <ul class="posts list-unstyled">
               {% for post in site.posts %}
-                <li>
+                <li class="my-3">
                   <div class="small text-uppercase fw-bold text-muted">{{ post.date | date: "%B" }} {{ post.date | date: "%d" | plus:'0' }}, {{ post.date | date: "%Y" }}</div>
                   <h3 class="h4 fw-normal"><!--a href="{{ post.url }}" title="{{ post.title }}"-->{{ post.title }}<!--/a--></h3>
                   <div>
