@@ -6,7 +6,7 @@ meta:
   title: A silver pin, thanks AdFed! | Jeffrey Isham
 ---
 
-<div class="img-thumbnail mb-1">
+<div class="img-thumbnail mb-3">
   <div class="ratio ratio-16x9">
     <video autoplay="" loop="" muted="" src="/assets/videos/Milwaukee-Website-Redesign.mp4" playsinline=""></video>
   </div>
