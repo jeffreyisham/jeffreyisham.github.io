@@ -7,6 +7,10 @@ meta:
 tags: [award, Horizontal, project]
 ---
 
+<div class="img-thumbnail ratio ratio-16x9">
+  <video autoplay="" loop="" muted="" src="/assets/videos/Milwaukee-Website-Redesign.mp4" playsinline=""></video>
+</div>
+  
 <p>Milwaukee Tool engaged Horizontal to help bring the launch of a new product line to life online. Scroll driven, frame-by-frame animated sequences led users through key value propositions and functionality. In collaboration with Creative and UX team members, we produced a proof-of-concept that led to the MX Fuel launch and additional implementations across key landing pages on the site.</p>
 <p class="small">2019 AdFed MN: Silver - Microsite</p>
 <p class="small">Technologies: Sitecore, HTML, CSS, Javascript, GSAP</p>
