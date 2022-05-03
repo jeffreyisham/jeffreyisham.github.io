@@ -7,6 +7,12 @@ meta:
 tags: [ICF Olson, project]
 ---
 
+<div class="img-thumbnail mb-3">
+  <div class="ratio ratio-16x9">
+    <video autoplay="" loop="" muted="" src="/assets/videos/wnw.mp4" playsinline=""></video>
+  </div>
+</div>
+
 <p>Responsible for leading a small team of developers in the execution of the Phonegap application deployable to the Apple App Store and the Google Play Store. Created several layers of functional prototypes to prove out the color matching equations and canvas image compositing aspects of the application.</p>
 <p class="small">2015 AdFed MN: Silver – Mobile App</p>
 <p class="small">Technologies: Phone gap (Camera and Location integration), HTML (Canvas for live image compositing), CSS, Javascript (jQuery, Greensock)</p>
