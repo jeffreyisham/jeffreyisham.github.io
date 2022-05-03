@@ -7,4 +7,4 @@ meta:
 ---
 
 <img class="img-fluid img-thumbnail" src="/assets/images/webby20th.png" />
-<p>2016 Webby Award Winner in the Websites/Weird category of National Corndog Day.</p>
+<p>2016 Webby Award Winner in the Websites/Weird category of <a href="http://pinkandgold.party" target="_blank">National Corndog Day</a>.</p>
