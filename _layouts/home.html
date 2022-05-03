@@ -10,62 +10,65 @@
     
     {% include site-header.html %}
     
-    <section class="border-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10">
-            {{ content }}
+    <div class="page">
+      
+      <section class="border-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10">
+              {{ content }}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    <section class="border-bottom">
-      <div class="container">
-        
-        <div class="row">
-          <div class="col-lg-5">
-            <h2 class="section-headline small text-uppercase fw-bold">Latest</h2>
+      </section>
+
+      <section class="border-bottom">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-5">
+              <h2 class="section-headline small text-uppercase fw-bold">Latest</h2>
+            </div>
+            <div class="col-lg-7">
+              <ul class="posts list-unstyled">
+                {% for post in site.posts %}
+                  <li class="post">
+                    <div class="post-date small text-uppercase fw-bold text-muted">{{ post.date | date: "%B" }} {{ post.date | date: "%d" | plus:'0' }}, {{ post.date | date: "%Y" }}</div>
+                    <h3 class="h5 fw-normal"><!--a href="{{ post.url }}" title="{{ post.title }}"-->{{ post.title }}<!--/a--></h3>
+                    <div>
+                       {{ post.content }}
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
           </div>
-          <div class="col-lg-7">
-            <ul class="posts list-unstyled">
-              {% for post in site.posts %}
-                <li class="post">
-                  <div class="post-date small text-uppercase fw-bold text-muted">{{ post.date | date: "%B" }} {{ post.date | date: "%d" | plus:'0' }}, {{ post.date | date: "%Y" }}</div>
-                  <h3 class="h5 fw-normal"><!--a href="{{ post.url }}" title="{{ post.title }}"-->{{ post.title }}<!--/a--></h3>
-                  <div>
-                     {{ post.content }}
-                  </div>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
+
         </div>
-        
-      </div>
-    </section>
-    
-    <section class="border-bottom">
-      <div class="container">
-        
-        <div class="row">
-          <div class="col-lg-5">
-            <h2 class="section-headline small text-uppercase fw-bold">Projects</h2>
+      </section>
+
+      <section class="border-bottom">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-5">
+              <h2 class="section-headline small text-uppercase fw-bold">Projects</h2>
+            </div>
+            <div class="col-lg-7">
+              <p>I got my first job as a web designer in 2005. Since then I've been a web developer, frontend developer, senior developer, tech lead, dev manager, practice lead, and these days, an engineering lead and vice president! I've been fortunate to have worked on some really great brands with some really fantastic people over the course of my career. Here's a few of my favorite projects.</p>
+              <ul class="posts list-unstyled">
+                {% assign work_items = site.work | sort: 'date' | reverse %}
+                {% for entry in work_items %}
+                  <li><a href="{{ entry.url }}" title="{{ entry.title }}">{{ entry.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
           </div>
-          <div class="col-lg-7">
-            <p>I got my first job as a web designer in 2005. Since then I've been a web developer, frontend developer, senior developer, tech lead, dev manager, practice lead, and these days, an engineering lead and vice president! I've been fortunate to have worked on some really great brands with some really fantastic people over the course of my career. Here's a few of my favorite projects.</p>
-            <ul class="posts list-unstyled">
-              {% assign work_items = site.work | sort: 'date' | reverse %}
-              {% for entry in work_items %}
-                <li><a href="{{ entry.url }}" title="{{ entry.title }}">{{ entry.title }}</a></li>
-              {% endfor %}
-            </ul>
-          </div>
+
         </div>
-        
-      </div>
-    </section>
+      </section>
     
+    </div>
     {% include site-footer.html %}
     
   </body>
