@@ -7,7 +7,7 @@ meta:
 tags: [award, Horizontal, project]
 ---
 
-<div class="img-thumbnail ratio ratio-16x9">
+<div class="ratio ratio-16x9">
   <video autoplay="" loop="" muted="" src="/assets/videos/Milwaukee-Website-Redesign.mp4" playsinline=""></video>
 </div>
 
