@@ -1,0 +1,11 @@
+---
+layout: work
+title: "2011 - 2014: Target Healthcare"
+date: 2014-12-31
+meta:
+  title: Target Healthcare | Jeffrey Isham
+tags: [Olson, project]
+---
+
+<p>Partnered with Target Healthcare teams in the creation of a provider facing website describing Target’s current Clinic and Pharmacy offerings and its commitment to healthcare. Concepted and executed a question based supplement finder using a mashup of custom editorial data and product tagging with Target’s product API.</p>
+<p class="small">Technologies: HTML, CSS (Bootstrap), Javascript (jQuery, Greensock), tumblr (template and api), Instagram, Twitter, and Google Maps APIs</p>
