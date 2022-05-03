@@ -9,9 +9,16 @@
   </head>
   
   <style>
-    .container { padding: 4rem .25rem; }
+    .container { padding: 4rem .5rem; }
+    @media (min-width: 768px) {
+      .container {
+        padding: 5rem .5rem;
+      }
+    }
     @media (min-width: 992px) {
-      .container { max-width: 960px!important; }
+      .container {
+        max-width: 960px!important;
+      }
     }
     .posts .post { margin-bottom: 3rem; }
     .posts .post:last-child { margin-bottom: 0; }
