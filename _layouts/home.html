@@ -9,6 +9,10 @@
   </head>
   
   <style>
+    container { padding-top: 4rem; padding-bottom:4rem; }
+    @media (min-width: 992px) {
+      .container { max-width: 960px!important; }
+    }
     .posts .post { margin-bottom: 3rem; }
     .posts .post:last-child { margin-bottom: 0; }
   </style>
@@ -18,13 +22,13 @@
     {% include site-header.html %}
     
     <div class="border-bottom">
-      <div class="container p-4 p-md-5">
+      <div class="container p-4">
         {{ content }}
       </div>
     </div>
     
     <div class="border-bottom">
-      <div class="container p-4 p-md-5">
+      <div class="container p-4">
         
         <div class="row">
           <div class="col-lg-5">
@@ -49,7 +53,7 @@
     </div>
     
     <div class="border-bottom">
-      <div class="container p-4 p-md-5">
+      <div class="container p-4">
         
         <div class="row">
           <div class="col-lg-5">
