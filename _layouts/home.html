@@ -21,13 +21,13 @@
         
         <div class="row">
           <div class="col-lg-5">
-            <h2 class="h6 text-uppercase fw-bold mb-4">Latest</h2>
+            <h2 class="section-headline h6 text-uppercase fw-bold mb-4">Latest</h2>
           </div>
           <div class="col-lg-7">
             <ul class="posts list-unstyled">
               {% for post in site.posts %}
                 <li class="post">
-                  <div class="small text-uppercase fw-bold text-muted">{{ post.date | date: "%B" }} {{ post.date | date: "%d" | plus:'0' }}, {{ post.date | date: "%Y" }}</div>
+                  <div class="post-date small text-uppercase fw-bold text-muted">{{ post.date | date: "%B" }} {{ post.date | date: "%d" | plus:'0' }}, {{ post.date | date: "%Y" }}</div>
                   <h3 class="h5 fw-normal"><!--a href="{{ post.url }}" title="{{ post.title }}"-->{{ post.title }}<!--/a--></h3>
                   <div>
                      {{ post.content }}
@@ -46,7 +46,7 @@
         
         <div class="row">
           <div class="col-lg-5">
-            <h2 class="h6 text-uppercase fw-bold mb-4">Projects</h2>
+            <h2 class="section-headline h6 text-uppercase fw-bold mb-4">Projects</h2>
           </div>
           <div class="col-lg-7">
             <p>I got my first job as a web designer in 2005. Since then I've been a web developer, frontend developer, senior developer, tech lead, dev manager, practice lead, and these days, an engineering lead and vice president! I've been fortunate to have worked on some really great brands with some really fantastic people over the course of my career. Here's a few of my favorite projects.</p>
