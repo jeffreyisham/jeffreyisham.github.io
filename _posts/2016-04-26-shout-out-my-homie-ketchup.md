@@ -6,5 +6,5 @@ meta:
   title: Shout out my homie ketchup | Jeffrey Isham
 ---
 
-<img src="/assets/images/webby20th.png" />
+<img class="img-fluid" src="/assets/images/webby20th.png" />
 <p>2016 Webby Award Winner in the Websites/Weird category of National Corndog Day.</p>
