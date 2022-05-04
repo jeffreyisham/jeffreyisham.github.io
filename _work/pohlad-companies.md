@@ -9,7 +9,7 @@ tags: [ICF Olson, project]
 
 <div class="img-thumbnail mb-3">
   <div class="ratio ratio-16x9">
-    <video autoplay="" loop="" muted="" src="https://www.coolerthanthefuture.com/wp-content/uploads/2015/03/pohlad.mp4" playsinline=""></video>
+    <video autoplay="" loop="" muted="" src="/assets/videos/pohlad.mp4" playsinline=""></video>
   </div>
 </div>
 
